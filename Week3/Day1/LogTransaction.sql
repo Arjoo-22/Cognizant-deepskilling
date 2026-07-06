@@ -1,0 +1,18 @@
+CREATE OR REPLACE TRIGGER LogTransaction
+
+AFTER INSERT
+ON Transactions
+
+FOR EACH ROW
+
+BEGIN
+
+INSERT INTO AuditLog
+VALUES(
+AuditLog_seq.NEXTVAL,
+:NEW.TransactionID,
+SYSDATE
+);
+
+END;
+/
