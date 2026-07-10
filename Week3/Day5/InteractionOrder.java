@@ -2,7 +2,7 @@ import org.mockito.InOrder;
 
 import static org.mockito.Mockito.*;
 
-class Exercise6Test {
+class InteractionOrder {
 
     interface BankService {
         void login();

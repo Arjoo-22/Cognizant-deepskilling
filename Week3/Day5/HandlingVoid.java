@@ -1,7 +1,7 @@
 
 import static org.mockito.Mockito.*;
 
-class Exercise4Test {
+class HandlingVoid{
 
     interface Printer {
         void printMessage();
