@@ -13,9 +13,9 @@ import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
 import io.github.resilience4j.timelimiter.TimeLimiterConfig;
 
 @SpringBootApplication
-public class JSONWeb{
+public class ResiliancePattern {
 
-    public static void main(String[] args) {
+s    public static void main(String[] args) {
         SpringApplication.run(Exercise3.class, args);
     }
 
