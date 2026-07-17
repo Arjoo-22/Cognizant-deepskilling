@@ -7,7 +7,7 @@ import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
 @SpringBootApplication
-public class CentralizedAuth
+public class EdgeServices
  {
 
     public static void main(String[] args) {
