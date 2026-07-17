@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
 @SpringBootApplication
-public class ConfAuth {
+public class LoadBalance {
 
     public static void main(String[] args) {
         SpringApplication.run(Exercise2.class, args);
