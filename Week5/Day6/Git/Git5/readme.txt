@@ -1,0 +1,1 @@
+had nothing to write in this exercise. to add this folder, here is some content. completed all the git mandatory exercises. and learned all the mandatory basics.
