@@ -1,0 +1,28 @@
+1. Explain React Events
+
+React events are actions such as click, submit, change, and key press that trigger event handlers.
+
+2. Explain Event Handlers
+
+Event handlers are functions that execute when an event occurs.
+
+Example:
+
+<button onClick={handleClick}>Click</button>
+3. Define Synthetic Event
+
+A Synthetic Event is React's wrapper around the browser's native event. It provides consistent behavior across all browsers.
+
+4. React Event Naming Convention
+
+React event names:
+
+Use camelCase
+Pass a function, not a string.
+
+Example:
+
+onClick
+onChange
+onSubmit
+onMouseOver

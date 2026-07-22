@@ -1,0 +1,34 @@
+1. Define JSX
+
+JSX (JavaScript XML) is a syntax extension that allows writing HTML-like code inside JavaScript to create React elements.
+
+2. Explain ECMAScript
+
+ECMAScript (ES) is the standard specification for JavaScript. ES6 introduced features like let, const, arrow functions, classes, and modules.
+
+3. Explain React.createElement()
+
+React.createElement() is a React method used to create React elements. JSX is compiled into React.createElement() calls.
+
+4. Explain how to create React nodes with JSX
+
+React nodes are created by writing JSX elements, which are converted into React elements by Babel.
+
+5. Define how to render JSX to DOM
+
+JSX is rendered to the browser using ReactDOM.createRoot() and the render() method.
+
+6. Explain JavaScript expressions in JSX
+
+JavaScript expressions are written inside curly braces {} in JSX.
+
+Example:
+
+<h1>Welcome {name}</h1>
+7. Explain inline CSS in JSX
+
+Inline CSS is applied using the style attribute with a JavaScript object.
+
+Example:
+
+<h1 style={{ color: "blue" }}>Hello</h1>

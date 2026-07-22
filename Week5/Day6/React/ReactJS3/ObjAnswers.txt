@@ -1,0 +1,25 @@
+1. Explain React Components
+A React component is a reusable piece of UI that returns JSX and helps build applications by dividing the interface into smaller parts.
+
+2. Difference between React Components and JavaScript Functions
+React Component	JavaScript Function
+Returns JSX (UI)	Returns any JavaScript value
+Used to build UI	Used for general programming logic
+Can receive props	Receives normal parameters
+Can use React Hooks (functional components)	Cannot use React Hooks
+
+3. Types of Components
+Functional Component
+Class Component
+
+4. Explain Class Component
+A class component is created using ES6 classes, extends React.Component, and contains a render() method to display UI.
+
+5. Explain Functional Component
+A functional component is a JavaScript function that returns JSX. It is simpler, faster to write, and is the preferred way in modern React.
+
+6. Define Constructor
+A constructor is a special method in a class component used to initialize state and bind methods. It runs automatically when the component is created.
+
+7. Define render() Function
+The render() method is used in class components to return the JSX that will be displayed on the screen.

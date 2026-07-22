@@ -1,0 +1,96 @@
+1. List the features of ES6
+ES6 (ECMAScript 6) introduced many new JavaScript features:
+let and const
+Arrow Functions (=>)
+Classes
+Template Literals
+Destructuring
+Spread (...) and Rest Operators
+Modules (import/export)
+Promises
+Map and Set
+Default Parameters
+
+2. Explain JavaScript let
+let is a keyword used to declare variables that can be reassigned but cannot be redeclared within the same scope.
+Example:
+let age = 20;
+age = 21;    // Allowed
+Features:
+Block scoped
+Can be updated
+Cannot be redeclared in the same block
+3. Difference between var and let
+var	let
+Function scoped	Block scoped
+Can be redeclared	Cannot be redeclared
+Hoisted and initialized with undefined	Hoisted but cannot be used before declaration
+Older keyword	Introduced in ES6
+Example
+if(true){
+    var a = 10;
+    let b = 20;
+}.log(a); // Works
+console.log(b); // Error
+
+4. Explain JavaScript const
+const is used to declare variables whose reference cannot be changed.
+Example:
+const PI = 3.14;
+Features:
+Block scoped
+Cannot be reassigned
+Must be initialized during declaration
+
+5. Explain ES6 Class Fundamentals
+A class is a blueprint for creating objects.
+Example:
+class Student {
+    constructor(name){
+        this.name = name;
+    }
+    display(){
+        console.log(this.name);
+    }
+}
+Features:
+constructor()
+Methods
+Objects can be created using new
+
+6. Explain ES6 Class Inheritance
+Inheritance allows one class to acquire properties and methods of another class using extends.
+Example:
+class Animal{
+    sound(){
+        console.log("Animal Sound");
+    }
+}
+class Dog extends Animal{
+    bark(){
+        console.log("Bark");
+    }
+}
+
+7. Define Arrow Functions
+Arrow functions provide a shorter syntax for writing functions.
+Syntax:
+const add = (a,b) => a+b;
+Normal Function:
+function add(a,b){
+    return a+b;
+}
+Arrow Function:
+const add = (a,b)=>a+b;
+
+8. Identify Set() and Map()
+Set
+Stores unique value only.
+const s = new Set();
+s.add(10);
+s.add(20);
+s.add(10);
+console.log(s);
+Output:
+10
+20

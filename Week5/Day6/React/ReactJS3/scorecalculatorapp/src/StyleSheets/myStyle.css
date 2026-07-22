@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    margin: 50px auto;
+    width: 500px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: green;
+}
